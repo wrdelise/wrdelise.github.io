@@ -1,0 +1,112 @@
+body {
+	  font-family: "Baskerville", serif;
+    font-size: 18px;
+    line-height: 150%;
+    /*text-align: justify;
+    text-justify: inter-word;*/
+}
+a {
+	  color: rgb(0, 0, 0);
+    font-weight: lighter;
+    text-decoration: none;
+}
+.nav ul {
+    text-align: right;
+    padding-right: 6%;
+    padding-top: 12px;
+}
+.nav li {
+	display: inline;
+    padding: 2px;
+    margin: 2px;
+    list-style-type: none;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	margin: 8px 0;
+}
+.header {
+	padding-top: 120px;
+}
+.name {
+  padding-left: 6%;
+  font-size: 16px;
+  float: left;
+}
+.content {
+	padding-top: 20px;
+	padding-left: 8%;
+    padding-right: 8%;
+}
+.news {
+  padding–left: 8%;
+  padding-right: 8%;
+}
+.headshot {
+  float: right;
+  margin: 4%;
+}
+.bottom {
+  padding-top: 220px;
+}
+.subheader {
+  font-size: 24px;
+}
+.flex-container-h {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-v {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.flex-left-bar {
+  order: 1;
+  flex-basis: 20px;
+  flex-shrink: 4;
+  flex-grow: 8;
+}
+.flex-right-bar {
+  order: 3;
+  flex-basis: 20px;
+  flex-shrink: 4;
+  flex-grow: 8;
+}
+.flex-center-item {
+  order: 2;
+  flex-basis: 800px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.little-hr {
+  width: 12%;
+  text-align: left;
+  margin-left: 8%;
+}
+.job-title {
+  font-weight: 600;
+  }
+.journal-intro {
+  margin-bottom: 0;
+  text-justify: inter-word;
+  text-align: justify;
+  }
+.journal {
+  text-indent: 15px;
+  text-justify: inter-word;
+  text-align: justify;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin: 0;
+  }
+.dated {
+    margin-top: 20px;
+    text-align: right;
+  }
