@@ -45,7 +45,7 @@ li {
   padding-right: 8%;
 }
 .headshot {
-  float: right;
+  float: none;
   margin: 4%;
 }
 .bottom {
@@ -74,7 +74,7 @@ li {
   flex-grow: 8;
 }
 .flex-right-bar {
-  order: 3;
+  order: 4;
   flex-basis: 20px;
   flex-shrink: 4;
   flex-grow: 8;
