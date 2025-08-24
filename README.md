@@ -1,2 +1,0 @@
-# wrd–punto–com
- 
