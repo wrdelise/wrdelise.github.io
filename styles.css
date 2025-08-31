@@ -12,6 +12,19 @@ body {
   justify-content: center;
 }
 
+.flexcontainer-responsive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .flexcontainer-responsive {
+    flex-direction: column;
+  }
+}
+
 .flexleft {
   flex: 50%;
 }
@@ -19,6 +32,8 @@ body {
 .flexright {
   flex: 26%;
 }
+
 .flexedge {
   flex: 12%
 }
+
